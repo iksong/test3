@@ -10,7 +10,7 @@
 	<array>
 		<dict>
 			<key>Branch</key>
-			<string>9.X</string>
+			<string>10.X</string>
 			<key>BuildMapping</key>
 			<dict>
 				<key>Debug</key>
@@ -33,7 +33,7 @@
 		</dict>
 	</array>
 	<key>FrameworkBranchToPush</key>
-	<string>7.X</string>
+	<string>8.X</string>
 	<key>FrameworkName</key>
 	<string>CXC</string>
 	<key>FrameworkPath</key>
