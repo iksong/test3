@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildSchemes</key>
+	<string>Debug, Release</string>
+	<key>CodeCoverage</key>
+	<string>-1</string>
+	<key>DependencyFrameworks</key>
+	<array>
+		<dict>
+			<key>Branch</key>
+			<string>5.X</string>
+			<key>BuildMapping</key>
+			<dict>
+				<key>Debug</key>
+				<string>build-Debug</string>
+				<key>Performance</key>
+				<string>build-Performance</string>
+				<key>Release</key>
+				<string>build-Release</string>
+			</dict>
+			<key>FrameworkName</key>
+			<string>CoreFramework</string>
+			<key>ModuleName</key>
+			<string>GlobalCoreFramework</string>
+			<key>Tag</key>
+			<string></string>
+			<key>URL</key>
+			<string>ssh://git@cedt-gct-bitbucketcli.nam.nsroot.net:7999/fci/bld_globalcoreframework.git</string>
+			<key>isFramework</key>
+			<true/>
+		</dict>
+	</array>
+	<key>FrameworkBranchToPush</key>
+	<string>4.X</string>
+	<key>FrameworkName</key>
+	<string>CXC</string>
+	<key>FrameworkPath</key>
+	<string>..</string>
+	<key>FrameworkURL</key>
+	<string>ssh://git@cedt-gct-bitbucketcli.nam.nsroot.net:7999/fci/bld_cxc.git</string>
+	<key>ProjectName</key>
+	<string>CXC</string>
+	<key>SABuildSchemes</key>
+	<string>Debug</string>
+	<key>SASchemeName</key>
+	<string>StandAlone</string>
+	<key>XCTestTarget</key>
+	<string>CXCTests</string>
+	<key>XCodeVersion</key>
+	<string>8.1</string>
+</dict>
+</plist>
